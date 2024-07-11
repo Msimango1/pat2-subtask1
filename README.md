@@ -14,8 +14,12 @@ William Cooke and Charles Wheatstone in Britain developed an electrical telegrap
 Morse code uses short and long signals, called dots and dashes, to represent letters and numbers.
 Samuel Morse, an American scientist, helped developed it to send messages over long distances
 using wires, radios, sound, or light. Messages are sent by tapping, drumming, buzzing, clicking, or
-flashing light.
+flashing light.The simplest letters, to begin with, are the ones that are represented by a single dit or dah. One dit, for instance, makes the letter “E,” while one dah makes “T.” From there, you can move on to two dits (“I”) and two dahs (“M”) and so on. Solidify your knowledge of elementary characters before putting together more complex sequences.[5]
+Two and three letter words ("me" = - - • ) ("cat" = -•-• •- - ) will be easiest to commit to memory when you’re first getting a feel for the format.
+The sequence for the distress call “SOS” ( • • • - - - • • • ) should be one of the first things you learn, as it could potentially save your life in an emergency situation. Another common distress call is CQD ("-•-• --•- -••") which is also essential
 # References
 https://www.hpl.ca/sites/default/files/L%40H%20Morse%20Code.pdf
 
 https://en.wikipedia.org/wiki/Morse_code
+
+https://www.wikihow.com/Learn-Morse-Code
