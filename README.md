@@ -14,8 +14,7 @@ William Cooke and Charles Wheatstone in Britain developed an electrical telegrap
 Morse code uses short and long signals, called dots and dashes, to represent letters and numbers.
 Samuel Morse, an American scientist, helped developed it to send messages over long distances
 using wires, radios, sound, or light. Messages are sent by tapping, drumming, buzzing, clicking, or
-flashing light. Listen to the eAudiobook Samuel Morse and the Telegraph by David Seidman on
-Hoopla, using your Hamilton Public Library card 
+flashing light.
 # References
 https://www.hpl.ca/sites/default/files/L%40H%20Morse%20Code.pdf
 
