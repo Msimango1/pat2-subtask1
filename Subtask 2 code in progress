@@ -1,0 +1,30 @@
+#include <iostream>
+#include <map>
+#include <sstream>
+#include <string>
+
+std::map<char, std::string> morseCodeMap = {
+    {'A', ".-"}, {'B', "-..."}, {'C', "-.-."}, {'D', "-.."}, {'E', "."},
+    {'F', "..-."}, {'G', "--."}, {'H', "...."}, {'I', ".."}, {'J', ".---"},
+    {'K', "-.-"}, {'L', ".-.."}, {'M', "--"}, {'N', "-."}, {'O', "---"},
+    {'P', ".--."}, {'Q', "--.-"}, {'R', ".-."}, {'S', "..."}, {'T', "-"},
+    {'U', "..-"}, {'V', "...-"}, {'W', ".--"}, {'X', "-..-"}, {'Y', "-.--"},
+    {'Z', "--.."}, {'0', "-----"}, {'1', ".----"}, {'2', "..---"}, {'3', "...--"},
+    {'4', "....-"}, {'5', "....."}, {'6', "-...."}, {'7', "--..."}, {'8', "---.."},
+    {'9', "----."}, {' ', "/"}
+};
+
+std::string englishToMorse(const std::string& english) {
+    std::string morseTranslation;
+    
+    for (char ch : english) {
+        ch = toupper(ch);  // Convert to uppercase
+        if (morseCodeMap.find(ch) != morseCodeMap.end()) {
+            morseTranslation += morseCodeMap[ch] + " "; // Add space between Morse characters
+        } else {
+            morseTranslation += "? "; // Unknown character
+        }
+    }
+    
+    return morseTranslation;
+}
